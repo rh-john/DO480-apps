@@ -3,8 +3,8 @@ Kind: Kustomization
 bases: 
 - ../../base/
 
-  #resources:
-  #- route.yaml
+resources:
+- route.yaml
 
 nameSuffix: -emea
 images:
